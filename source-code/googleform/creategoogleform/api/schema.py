@@ -38,6 +38,9 @@ class CreateGoogleFormSchema(GoogleFormBaseSchema):
 
 
 class GetUserDetailSchema(Schema):
+    """
+        TODO: If specific user to be fetched.
+    """
     id = fields.UUID(required=False)
 
 class UpdateUserSchema(GoogleFormBaseSchema):
