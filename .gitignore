@@ -1,3 +1,4 @@
+.gitignore
 *.xml
 *.iml
-googleform/.idea
+source-code/googleform/.idea
